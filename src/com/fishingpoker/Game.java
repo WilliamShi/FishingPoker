@@ -6,7 +6,7 @@ public class Game {
 	public Decks Board;
 	//Card[] GameCards;
 	public Game(int i) {
-		iGamePointer = i*54;
+		iGamePointer = i*54-1;
 		iPokerSets = i;
 		Board = new Decks(i);
 		// TODO Auto-generated constructor stub
@@ -17,10 +17,10 @@ public class Game {
 //	}
 	public Card RemoveOneCard(){
 		Card tmpCard = new Card();
-		iGamePointer--;
 		tmpCard.setNumber(Board.DeckCards[iGamePointer].getNumber());
 		tmpCard.setSuit(Board.DeckCards[iGamePointer].getSuit());
 		tmpCard.setFaceOff();
+		iGamePointer--;
 		return tmpCard;
 	}
 	public int getCardPos(){

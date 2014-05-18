@@ -16,4 +16,11 @@
         android:text="@string/button_start"
         android:onClick = "start_real_offgame" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text ="@string/get_score"
+        android:onClick="get_right_cards" />
+
 </LinearLayout>

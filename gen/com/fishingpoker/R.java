@@ -1084,6 +1084,7 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020057;
     }
     public static final class id {
+        public static final int Button3=0x7f050041;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1095,11 +1096,12 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050042;
+        public static final int action_settings=0x7f050044;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
-        public static final int button1=0x7f050041;
+        public static final int button1=0x7f050042;
+        public static final int button2=0x7f050043;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int container=0x7f05003c;
@@ -1253,16 +1255,17 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int action_settings=0x7f0a0012;
+        public static final int action_settings=0x7f0a0013;
         public static final int app_name=0x7f0a000d;
         public static final int button_send=0x7f0a0010;
         public static final int button_start=0x7f0a0011;
         public static final int edit_message=0x7f0a000e;
+        public static final int get_score=0x7f0a0012;
         public static final int hello_world=0x7f0a000f;
-        public static final int player_text=0x7f0a0014;
-        public static final int poker_text=0x7f0a0015;
-        public static final int title_activity_main=0x7f0a0013;
-        public static final int title_activity_start_off_game=0x7f0a0016;
+        public static final int player_text=0x7f0a0015;
+        public static final int poker_text=0x7f0a0016;
+        public static final int title_activity_main=0x7f0a0014;
+        public static final int title_activity_start_off_game=0x7f0a0017;
     }
     public static final class style {
         /** 
